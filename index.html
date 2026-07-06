@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App - DEYAFA ARSETYA</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS is handled by Webpack -->
+</head>
+<body>
+  <loading-indicator id="global-loader" hidden></loading-indicator>
+
+  <app-bar></app-bar>
+
+  <main class="container">
+    <section class="form-section">
+      <note-form></note-form>
+    </section>
+    
+    <section class="list-section">
+      <h2 class="section-title">Daftar Catatan</h2>
+      <note-list></note-list>
+    </section>
+  </main>
+
+  <footer>
+    <p>Notes App &copy; 2026 - DEYAFA ARSETYA | Dicoding Front-End Web Developer</p>
+  </footer>
+</body>
+</html>
